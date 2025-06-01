@@ -1,0 +1,11 @@
+{
+    "dockerfile_lines": [],
+    "graphs": {
+      "email_assistant": "./email_assistant.py:email_assistant"
+    },
+    "python_version": "3.12",
+    "env": ".env",
+    "dependencies": [
+      "."
+    ]
+  }
