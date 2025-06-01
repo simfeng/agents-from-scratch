@@ -41,13 +41,13 @@
 
 1. **克隆项目**
    ```bash
-   git clone [项目地址]
-   cd agents-from-scratch-course
+   git clone https://github.com/simfeng/agents-from-scratch.git
+   cd agents-from-scratch
    ```
 
 2. **安装依赖**
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt -i https://repo.huaweicloud.com/repository/pypi/simple/
    ```
 
 3. **配置环境变量**
@@ -69,9 +69,9 @@
 
 **进行中：**
 - 🚧 第2章：LangGraph框架
+- ⏳ 第3章：搭建智能体：邮件助手
 
 **计划中：**
-- ⏳ 第3章：搭建智能体：邮件助手
 - ⏳ 第4章：智能体评估
 - ⏳ 第5章：人类干预机制
 - ⏳ 第6章：记忆系统
