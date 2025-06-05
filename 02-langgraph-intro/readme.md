@@ -1,10 +1,30 @@
 # AI Agents实战项目第2篇：LangGraph 入门
 
-在第一篇中，我们对agent的概念和发展历程有了一定的认识，为了能更好的构建智能体，接下来，我们将学习如何使用 LangGraph。
+在第一篇文章中，我们对agent的概念和发展历程有了一定的认识，为了能更好的构建智能体，接下来，我们将学习如何使用 LangGraph。
 
 很多优秀的 DeepResearch 应用都是基于 LangGraph 构建的，比如：
 - 字节跳动开源的 DeerFlow (https://deerflow.tech/)
 - 谷歌开源的 Gemini Fullstack LangGraph Quickstart (https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart)
+
+本节的notebook地址为： https://github.com/simfeng/agents-from-scratch/blob/main/02-langgraph-intro/notebook.ipynb
+
+## 目录
+
+- [什么是LangGraph](#什么是langgraph)
+- [控制能力：构建你的第一个图（Graph）](#控制能力构建你的第一个图graph)
+  - [理解核心概念](#理解核心概念)
+  - [定义 State schema](#定义-state-schema)
+  - [添加节点（Nodes）和边（Edges）](#添加节点nodes和边edges)
+  - [执行简单流程](#执行简单流程)
+  - [构建条件分支流程](#构建条件分支流程)
+  - [使用预构建的智能体](#使用预构建的智能体)
+- [持久化能力：赋予智能体记忆](#持久化能力赋予智能体记忆)
+  - [理解持久化概念](#理解持久化概念)
+  - [选择合适的存储方式](#选择合适的存储方式)
+  - [实现对话记忆](#实现对话记忆)
+  - [查看历史状态](#查看历史状态)
+- [总结](#总结)
+
 
 ## 什么是LangGraph
 
