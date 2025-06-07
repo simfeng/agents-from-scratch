@@ -3,10 +3,10 @@
 在第一篇文章中，我们对agent的概念和发展历程有了一定的认识，为了能更好的构建智能体，接下来，我们将学习如何使用 LangGraph。
 
 很多优秀的 DeepResearch 应用都是基于 LangGraph 构建的，比如：
-- 字节跳动开源的 DeerFlow (https://deerflow.tech/)
-- 谷歌开源的 Gemini Fullstack LangGraph Quickstart (https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart)
+- 字节跳动开源的 DeerFlow ([https://deerflow.tech/](https://deerflow.tech/))
+- 谷歌开源的 Gemini Fullstack LangGraph Quickstart ([https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart))
 
-本节的notebook地址为： https://github.com/simfeng/agents-from-scratch/blob/main/02-langgraph-intro/notebook.ipynb
+本节的notebook地址为： [https://github.com/simfeng/agents-from-scratch/blob/main/02-langgraph-intro/notebook.ipynb](https://github.com/simfeng/agents-from-scratch/blob/main/02-langgraph-intro/notebook.ipynb)
 
 ## 目录
 

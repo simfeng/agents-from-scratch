@@ -2,11 +2,11 @@
 
 ## 写在前面
 
-欢迎来到"AI Agents(智能体)实战项目"，本项目是在 LangChain 官方的教程 [Agents From Scratch](https://github.com/langchain-ai/agents-from-scratch) 演进而来，并在AI辅助下完成，旨在为大家提供一个基础的、实用的、连贯的实战项目。如果你对AI智能体这个概念还不太清楚，或者想了解它能为我们带来什么价值，这个系列会为你提供一个清晰的学习路径。所有的文章和代码都是开源的，地址为：**https://github.com/simfeng/agents-from-scratch**，欢迎 Star。
+欢迎来到"AI Agents(智能体)实战项目"，本项目是在 LangChain 官方的教程 [Agents From Scratch](https://github.com/langchain-ai/agents-from-scratch) 演进而来，并在AI辅助下完成，旨在为大家提供一个基础的、实用的、连贯的实战项目。如果你对AI智能体这个概念还不太清楚，或者想了解它能为我们带来什么价值，这个系列会为你提供一个清晰的学习路径。所有的文章和代码都是开源的，地址为：**[https://github.com/simfeng/agents-from-scratch](https://github.com/simfeng/agents-from-scratch)**，欢迎 Star。
 
 整个实战项目大概会有7-10节内容，每节内容都会有一篇文章和一个可直接运行的notebook，如果有必要的话，还会有完整的项目文件。我们将从基础概念开始，逐步引导你构建实用的AI智能体。
 
-本节内容notebook地址为：https://github.com/simfeng/agents-from-scratch/blob/main/01-agents-intro/notebook.ipynb
+本节内容notebook地址为：[https://github.com/simfeng/agents-from-scratch/blob/main/01-agents-intro/notebook.ipynb](https://github.com/simfeng/agents-from-scratch/blob/main/01-agents-intro/notebook.ipynb)
 
 ## 目录
 
