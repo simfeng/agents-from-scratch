@@ -6,7 +6,32 @@
 
 本节的notebook地址为： [https://github.com/simfeng/agents-from-scratch/blob/main/03-building-agents/notebook.ipynb](https://github.com/simfeng/agents-from-scratch/blob/main/03-building-agents/notebook.ipynb)
 
-<!-- toc here -->
+## 目录
+
+- [系统架构概览](#系统架构概览)
+- [Tools 定义：智能体的能力基础](#tools-定义智能体的能力基础)
+  - [1. 邮件撰写工具](#1-邮件撰写工具)
+  - [2. 会议安排工具](#2-会议安排工具)
+  - [3. 日程查询工具](#3-日程查询工具)
+  - [4. 任务完成标记](#4-任务完成标记)
+- [Router 模块：智能的邮件分类系统](#router-模块智能的邮件分类系统)
+  - [State 设计](#state-设计)
+  - [结构化输出的实现](#结构化输出的实现)
+  - [结构化输出的配置](#结构化输出的配置)
+  - [Router 的 Prompt 设计](#router-的-prompt-设计)
+  - [分类 Nodes 的实现](#分类-nodes-的实现)
+  - [邮件内容撰写机制的核心理念](#邮件内容撰写机制的核心理念)
+- [Response Agent：智能的邮件回复系统](#response-agent智能的邮件回复系统)
+  - [Response Agent 的 System Prompt](#response-agent-的-system-prompt)
+  - [LLM Nodes：决策中心](#llm-nodes决策中心)
+  - [Tool 调用 Nodes：执行中心](#tool-调用-nodes执行中心)
+  - [条件 Edges：流程控制](#条件-edges流程控制)
+  - [组装完整的 Response Agent](#组装完整的-response-agent)
+- [系统集成：完整邮件助手的诞生](#系统集成完整邮件助手的诞生)
+- [测试](#测试)
+  - [测试用例1：通知类邮件](#测试用例1通知类邮件)
+  - [测试用例2：需要回复的邮件](#测试用例2需要回复的邮件)
+- [总结](#总结)
 
 ## 系统架构概览
 
@@ -469,7 +494,7 @@ overall_workflow = (
 
 这个简洁的组合展示了模块化设计的优势。Router 模块负责分类决策，Response Agent 负责具体的邮件处理，两者协同工作，形成了一个功能完整的邮件助手。
 
-![03_email_assistant.png](img/03_email_assistant.png)
+![email assistant](img/03_email_assistant.png)
 
 通过 `show_graph` 函数中添加 `xray=True` 参数，我们可以将子 Agent 也展开显示出来。通过这个图可以看出，Agent 作为选项的一部分添加到了 triage_router 后，triage_router 是通过 `Command` 中的 goto 参数来决定去向的：
 
