@@ -62,7 +62,7 @@ def format_gmail_markdown(subject, author, to, email_thread, email_id=None):
 ---
 """
 
-def format_for_display(state, tool_call):
+def format_for_display(tool_call):
     """Format content for display in Agent Inbox
     
     Args:
