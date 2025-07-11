@@ -69,13 +69,13 @@
 - ✅ 第2章：LangGraph框架（[博客](./02-langgraph-intro/README.md) + [Notebook](./02-langgraph-intro/notebook.ipynb) + [Colab](https://colab.research.google.com/github/simfeng/agents-from-scratch/blob/main/02-langgraph-intro/notebook.ipynb)）
 - ✅ 第3章：搭建智能体：邮件助手（[博客](./03-building-agents/README.md) + [Notebook](./03-building-agents/notebook.ipynb) + [Colab](https://colab.research.google.com/github/simfeng/agents-from-scratch/blob/main/03-building-agents/notebook.ipynb)）
 - ✅ 第4章：智能体评估（[博客](./04-evaluation/README.md) + [Notebook](./04-evaluation/notebook.ipynb) + [Colab](https://colab.research.google.com/github/simfeng/agents-from-scratch/blob/main/04-evaluation/notebook.ipynb)）
+- ✅ 第5章：人类干预机制（[博客](./05-human-in-the-loop/README.md) + [Notebook](./05-human-in-the-loop/notebook.ipynb) + [Colab](https://colab.research.google.com/github/simfeng/agents-from-scratch/blob/main/05-human-in-the-loop/notebook.ipynb)）
 - ✅ 第8章：多智能体（Multi-Agent）介绍（[博客](https://schemax.tech/blog/anthropic-multi-agent-system-architecture)）
 
 **进行中：**
-- 🚧 第5章：人类干预机制
+- 🚧 第6章：Memory
 
 **计划中：**
-- ⏳ 第6章：记忆系统
 - ⏳ 第7章：外部工具调用
 
 ---
