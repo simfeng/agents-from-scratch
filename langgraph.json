@@ -2,7 +2,8 @@
     "dockerfile_lines": [],
     "graphs": {
       "email_assistant": "./src/email_assistant.py:email_assistant",
-      "email_assistant_hitl": "./src/email_assistant_hitl.py:email_assistant"
+      "email_assistant_hitl": "./src/email_assistant_hitl.py:email_assistant",
+      "email_assistant_hitl_memory": "./src/email_assistant_hitl_memory.py:email_assistant"
     },
     "python_version": "3.12",
     "env": ".env",
