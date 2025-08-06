@@ -91,9 +91,9 @@ def update_memory(store, namespace, messages):
     # Get the existing memory
     user_preferences = store.get(namespace, "user_preferences")
     # Update the memory
-    llm = init_chat_model("openai:gpt-4.1", temperature=0.0).with_structured_output(
-        UserPreferences
-    )
+    llm = init_chat_model(
+        model_name, model_provider=model_provider, temperature=0.0
+    ).with_structured_output(UserPreferences)
     result = llm.invoke(
         [
             {
