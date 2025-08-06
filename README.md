@@ -60,7 +60,7 @@
 
 ## 更新计划
 
-这个项目我会持续更新，但是没有具体计划，每完成一个章节就发布。
+**所有章节都更新完了。**
 
 ## 进度追踪
 
@@ -71,10 +71,9 @@
 - ✅ 第4章：智能体评估（[博客](./04-evaluation/README.md) + [Notebook](./04-evaluation/notebook.ipynb) + [Colab](https://colab.research.google.com/github/simfeng/agents-from-scratch/blob/main/04-evaluation/notebook.ipynb)）
 - ✅ 第5章：人类干预机制（[博客](./05-human-in-the-loop/README.md) + [Notebook](./05-human-in-the-loop/notebook.ipynb) + [Colab](https://colab.research.google.com/github/simfeng/agents-from-scratch/blob/main/05-human-in-the-loop/notebook.ipynb)）
 - ✅ 第6章：记忆系统（[博客](./06-agents-with-memory/README.md) + [Notebook](./06-agents-with-memory/notebook.ipynb) + [Colab](https://colab.research.google.com/github/simfeng/agents-from-scratch/blob/main/06-agents-with-memory/notebook.ipynb)）
+- ✅ 第7章：外部工具调用（[博客](./07-agents-with-gmail/README.md)）
 - ✅ 第8章：多智能体（Multi-Agent）介绍（[博客](https://schemax.tech/blog/anthropic-multi-agent-system-architecture)）
 
-**进行中：**
-- 🚧 第7章：外部工具调用
 
 ---
 
