@@ -2,6 +2,7 @@
 .code
 .DS_Store
 .langgraph_api
+.secrets
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

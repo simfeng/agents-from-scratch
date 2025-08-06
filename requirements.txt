@@ -6,3 +6,6 @@ html2text==2025.4.15
 langgraph-cli[inmem]
 pytest==8.4.0
 rich==14.0.0
+google-api-python-client==2.177.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.2

@@ -10,6 +10,10 @@ import argparse
 import asyncio
 from typing import Optional
 from langgraph_sdk import get_client
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 async def main(
     email: str,

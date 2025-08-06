@@ -18,6 +18,9 @@ from datetime import datetime
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from langgraph_sdk import get_client
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Setup paths
 _ROOT = Path(__file__).parent.absolute()
