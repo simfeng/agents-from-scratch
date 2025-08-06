@@ -54,7 +54,7 @@ GMAIL_TOOLS_PROMPT = """
 
 小提醒：如果你用的是个人邮箱（不是 Google Workspace），记得在"Audience"设置中选择"External"。
 
-<img width="1496" alt="Screenshot 2025-04-26 at 7 43 57 AM" src="./img/07_gmail_oauth.png">
+![Google Cloud OAuth](./img/07_gmail_oauth.png)
 
 > 然后，在 Audience 页面将自己的邮箱添加为测试用户
  
@@ -132,3 +132,6 @@ python src/tools/gmail/run_ingest.py --email <your-email@gmail.com> --minutes-si
 经过七个章节的学习，我们从零开始构建了一个功能完整的 AI Agent 邮件助手，涵盖了工具调用、人机交互、记忆学习等核心概念。更重要的是，这不只是一个演示项目，而是一个真正可以投入使用的实用工具，而且难度不低。
 
 最后，聊一点感悟：在 AI Agent 时代，我发现企业的开放能力变得越来越重要了。很多企业都有开放平台，但开发体验却参差不齐。其实开放能力本质上反映的是企业的基础能力——技术架构、规范标准、流程体系、文档质量等等。基础越扎实，开放能力就越强，基于这些平台构建的 AI 应用上限也就越高。
+
+----
+如果你觉得项目（[https://github.com/simfeng/agents-from-scratch](https://github.com/simfeng/agents-from-scratch)）对你有帮助，欢迎给个⭐️支持一下！
