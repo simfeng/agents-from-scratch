@@ -559,9 +559,12 @@ def send_email(
             original_from = "recipient@example.com"  # Will be overridden by user input
             thread_id = None
             
+        # Parse the email address from the From header (which may contain name)
+        parsed_from = email.utils.parseaddr(original_from)[1]  # Extract just the email address
+        
         # Create a message object
         msg = MIMEText(response_text)
-        msg["to"] = original_from
+        msg["to"] = parsed_from
         msg["from"] = email_address
         msg["subject"] = subject
         
